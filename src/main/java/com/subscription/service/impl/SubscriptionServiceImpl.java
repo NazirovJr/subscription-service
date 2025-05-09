@@ -1,4 +1,4 @@
-package com.subscription.service;
+package com.subscription.service.impl;
 
 import com.subscription.dto.SubscriptionDto;
 import com.subscription.dto.SubscriptionTypeDto;
@@ -9,6 +9,7 @@ import com.subscription.model.User;
 import com.subscription.repository.SubscriptionRepository;
 import com.subscription.repository.SubscriptionTypeRepository;
 import com.subscription.repository.UserRepository;
+import com.subscription.service.SubscriptionService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
